@@ -1,0 +1,170 @@
+    <!DOCTYPE html>
+    <html lang="fr-FR">
+      <head>
+          <title>Expériences professionnelles</title>
+          <meta charset="utf-8">
+          <style>
+              body{
+                  font-family: 'Verdana', Calibri, serif;
+                  font-size: 17px;
+                  margin: 0px;
+                  padding: 0px;
+              }
+              h1{
+                  font-size: 40px;
+                  font-weight: normal;
+                  text-align: center;
+              }
+              header{
+                  height: 100px;
+              }
+              footer{
+                  height: 80px;
+                  padding-top: 30px;
+                  text-align: center;
+                  background-color: #C5C5C5;
+                  border-top: 2px solid #AAA;
+              }
+              nav li{
+                  list-style-type: none;
+                  float: left;
+              }
+              nav ul{
+                  margin: 0px;
+                  padding: 0px;
+              }
+              nav{
+                  width: 100%;
+                  background-color: #424558;
+              }
+              nav a{
+                  display:inline-block;
+                  text-decoration: none;
+                  padding: 20px 30px;
+                  color: #FFF;
+                  text-transform: uppercase;
+                  font-size: 15px;
+              }
+              .table{
+                  display:table;
+                  margin:0 auto;
+              }
+              .menu-ind:hover{
+                  border-top: 5px solid #4c8;
+                  background-color: RGBa(64,200,130,0.15);
+              }
+              .menu-exp:hover{
+                  border-top: 5px solid #f1dc4f;
+                  background-color: RGBa(241,211,79,0.15);
+              }
+              .menu-hob:hover{
+                  border-top: 5px solid #0070bb;
+                  background-color: RGBa(000,112,192,0.15);
+              }
+              .menu-con:hover{
+                  border-top: 5px solid #e44d26;
+                  background-color: RGBa(228,77,38,0.15);
+              }
+              nav li:hover a{
+                  padding: 15px 30px 20px 30px;
+              }
+              section{
+                  width: 100%;
+                  min-height: 300px;
+                  padding-bottom: 10px;
+                  margin-bottom: 10px;
+              }
+              .sec{
+                  margin: 0px 10%;
+              }
+              .leftexp{
+                  float: left;
+                  width: 30%;
+              }
+              .rightexp{
+                  float:left;
+                  width: 65%;
+                  margin-left: 5%;
+              }
+              .sec::after, .exp::after{
+                  content: "";
+                  display: table;
+                  clear: both;
+              }
+              .orange{
+                  border-top: 5px solid #e44d26;
+                  background-color: RGBa(228,117,38,0.15);
+                  margin-bottom: 0px;
+              }
+              .rose{
+                  border-top: 5px solid #e44d26;
+                  background-color: RGBa(228,77,128,0.15);
+                  margin-bottom: 0px;
+              }
+              .leftexp img{
+                  width:100%;
+                  max-width: 200px;
+              }
+          </style>
+      </head>
+      <body>
+        <header>
+            <h1>Prénom Nom</h1>
+        </header>
+        <nav>
+            <div class="table">
+                <ul>
+                    <li class="menu-ind">
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li class="menu-exp">
+                        <a href="exp-pro.html">Expériences professionnelles</a>
+                    </li>
+                    <li class="menu-hob">
+                        <a href="loisirs.html">Loisirs</a>
+                    </li>
+                    <li class="menu-con">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <article>
+            <section class="orange">
+                <h1>Société A</h1>
+                <div class="sec">
+                    <div class="leftexp">
+                        <a href="http://societe_a.fr">
+                            <img src="images/societeA.png" alt="Site de la société A">
+                        </a>
+                    </div>
+                    <div class="rightexp">
+                        <p>Détails des missions </p>
+                        <p>Installation de ...</p>
+                        <p>Maintenance de ...</p>
+                        <p>...</p>
+                    </div>
+                </div>
+            </section>
+            <section class="rose">
+                <h1>Société B</h1>
+                <div class="sec">
+                    <div class="leftexp">
+                        <a href="http://societe_b.fr">
+                            <img src="images/societeB.png" alt="Site de la société B">
+                        </a>
+                    </div>
+                    <div class="rightexp">
+                        <p>Détails des missions </p>
+                        <p>Installation de ...</p>
+                        <p>Maintenance de ...</p>
+                        <p>...</p>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <footer>
+            <p> Copyright 2018 Prénom Nom - Toute reproduction interdite </p>
+        </footer>  
+      </body>
+    </html>
